@@ -30,3 +30,16 @@ Mon réseau est actuellement composé de :
 ## 📸 Capture d'écran
 
 ![Topologie réseau domestique](cisco_ReseauDomestique.png)
+
+
+---
+
+## ⭐ Niveau de difficulté:  ⭐☆☆☆☆ 
+
+---
+
+## 💭 Réflexion personnelle
+
+Bien que je l'ai trouver assez simple à faire, ce mini labo m'a permis de comprendre rapidement les bases d'un petit réseau tout en m'amusant a y ajouter divers appareils.
+
+
