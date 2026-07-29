@@ -41,10 +41,10 @@ Ainsi, le câble Ethernet n’est pas l’unique solution pour connecter des ord
 
 Pour finir dans le dernier exo on nous ammène a configurer le nom d'hôte d'un routeur grâce aux commandes Cisco.
 Pour ce faire on utilise les commandes suivantes: 
-  Router> enable
-  Router# configure terminal
-  Router(config)# hostname Edge_Router_Backup
-  Edge_Router_Backup(config)# end
+  - Router> enable
+  - Router# configure terminal
+  - Router(config)# hostname Edge_Router_Backup
+  - Edge_Router_Backup(config)# end
 ![exo3](exo4_PTTA1_commande_serveur.png)
 
 ---
