@@ -44,6 +44,7 @@ La documentation de Cisco nous renseigne sur le fait suivant:
 
 Avant toute chose il est important de se renseigner sur ce qu'est le *DHCP*. Le DHCP (Dynamic Host Configuration Protocol ou protocole de configuration dynamique des hôtes) est un système qui donne une adresse IP et un masque de sous-réseau à nos appareils de façon automatique. Il sert à connecter un ordinateur, un téléphone ou une télé au réseau sans rien régler à la main.
 Ainsi pour connecter le PC au routeur, nous sommes allé dans l'onglet PC/Desktop/Ip Configuration et avons selectionner l'option 'DHCP' au lieu de static. Cela nous a permit d'obtenir une adresse IPV4 automatiquement.
+
 ![adresse PC_BOB](pc_bob_adresseIPV4.png)
 ![ipconfig](adresse_Ip_PC.png)
 
