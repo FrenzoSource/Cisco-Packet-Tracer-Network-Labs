@@ -55,6 +55,7 @@ La commande 'ping cisco.srv' nous a permis de vérifier que la connexion entre l
 
 Pour ce faire nous avons du dans un premier temps retirer la carte r"seau filaire pour la remplacer par une carte sans fil (WPC300N) puis sommes partie dans l'onglet connexion pour relier l'appareil au routeur.
 Pour verifier la connectivité je me suis rendu dans l'onglet Desktop/Navigateur Web et est saisie 'cisco.srv'. La page s'affichant j'ai donc pu en conclure que le pc est bel et bien relié à Internet.
+
 ![web_Serveur](cisco_srv_web_browser.png)
 
 ---
