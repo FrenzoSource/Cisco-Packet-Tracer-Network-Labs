@@ -21,7 +21,7 @@ Dans cet activité il nous est demandé d'installer le matériel suivant :
 - serveur
 
 L'architecture obtenu à la fin de l'activité est représenter par l'image ci-dessous
-![Architecture projet]architecture de fin.png)
+![Architecture projet](architecture_de_fin.png)
 
 ---
 
