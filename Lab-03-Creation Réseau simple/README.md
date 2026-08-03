@@ -49,6 +49,7 @@ Ainsi pour connecter le PC au routeur, nous sommes allé dans l'onglet PC/Deskto
 ![ipconfig](adresse_Ip_PC.png)
 
 La commande 'ping cisco.srv' nous a permis de vérifier que la connexion entre l'ordinateur et le routeur est fonctionnelle, puisque le serveur répond aux requêtes ICMP.
+
 ![ping](screen_ping_ciscoSRV.png)
 
 ### 3. Configurer la partie réseau de l'ordinateur portable
