@@ -55,6 +55,7 @@ Je créer mon premier virtual lan en tapant 'VLAN 10' et lui donne le nom 'ADMIN
 ### 3. Affectation des ports aux VLANS
 
 Les Vlans maintenant créer nous n'avons pas encore de ports affectés.
+
 ![Affectation_vlan](affectation_vlan.png)
 
 La commande 'interface range fa0/1-2' sélectionne les ports Fa0/1 (relié à ordi1) et Fa0/2 (relié à ordi2). 
