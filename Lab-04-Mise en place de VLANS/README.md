@@ -56,6 +56,7 @@ Je créer mon premier virtual lan en tapant 'VLAN 10' et lui donne le nom 'ADMIN
 
 Les Vlans maintenant créer nous n'avons pas encore de ports affectés.
 ![Architecture projet](affectation_vlan.png)
+
 La commande 'interface range fa0/1-2' sélectionne les ports Fa0/1 (relié à ordi1) et Fa0/2 (relié à ordi2). 
 La commande 'Switchport mode access' configure les ports en mode accès et 'switchport access vlan 10' place ces ports dans le VLAN 10.
 
