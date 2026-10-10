@@ -46,6 +46,7 @@ Grace au CLI de mon Switch j'ai pu rentrer des commandes afin de creer des VLANS
 de réunir le pc 3 et 4 sur le VLAN 20.
 
 Voici l'enchainement de commandes utilisés.
+![Architecture projet](config_switch.png)
 
 La commande enable permet de passer du mode utilisateur au mode privilégié et la commande configure terminal permet d'entrer en mode config.
 Je créer mon premier virtual lan en tapant 'VLAN 10' et lui donne le nom 'ADMINISTRATION'. Je refait ce processus pour deux autre VLAN (SUPPORT et SERVEUR).
@@ -53,7 +54,9 @@ Je créer mon premier virtual lan en tapant 'VLAN 10' et lui donne le nom 'ADMIN
 
 ### 3. Affectation des ports aux VLANS
 
-Les Vlans maintenant créer nous n'avons pas encore de ports affectés. La commande 'interface range fa0/1-2' sélectionne les ports Fa0/1 (relié à ordi1) et Fa0/2 (relié à ordi2). 
+Les Vlans maintenant créer nous n'avons pas encore de ports affectés.
+![Architecture projet](affectation_vlan.png)
+La commande 'interface range fa0/1-2' sélectionne les ports Fa0/1 (relié à ordi1) et Fa0/2 (relié à ordi2). 
 La commande 'Switchport mode access' configure les ports en mode accès et 'switchport access vlan 10' place ces ports dans le VLAN 10.
 
 
@@ -61,9 +64,12 @@ La commande 'Switchport mode access' configure les ports en mode accès et 'swit
 
 Pour vérifier que mes VLANS étaient bien présent et bien associés à ce que je voulais, j'ai décider de faire 2 choses intéressante.
 La première est qu'étant donné que nous sommes dans la console du Switch nous pouvons taper une commande pour vérifier l'ensemble: 'show vlan brief' qui nous donne un aperçu du tout.
+![Architecture projet](show_vlan_biref.png)
+
 
 Et la seconde manière de vérifier est de se rendre dans la console d'un des ordinateurs et d'essayer de ping l'ordinateur sur le même VLAN, si cette commande réussit alors nos VLANS 
 sont bien configurés.
+![Architecture projet](resultat_ping_vlan.png)
 
 ---
 
