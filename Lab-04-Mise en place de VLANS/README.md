@@ -17,7 +17,7 @@ Pour cette activité découverte j'ai choisit l'architecture réseau suivante:
 - des câbles
 
 Voici la photo représentant mon architecture en fin d'activité :
-
+![Architecture projet](<switch et vlan.png>)
 
 ---
 
